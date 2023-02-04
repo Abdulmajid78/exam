@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    font-size: 16px;
+}
+
+.main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px 30px 35px 80px;
+    color: #2ab3b1;
+}
+.main h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin: 20px 30px 20px 80px;
+    color: #bfe031;
+}
+.main p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 10px 30px 1px 80px;
+    color: #cfd4da;
+}
+
+body .second_sec {
+    margin-top: 50px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: aqua;
+    height: 450px;
+}
+
+body .box_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
+    background-color: #2ab3b1;
+
+}
+
+body .box_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #4abebd;
+}
+
+body .box_1 > div:first-child {
+    width: 70%;
+    height: 70%;
+}
+
+body .box_1 div:first-child > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px 30px 15px 0;
+    color: white;
+}
+
+body .box_1 div > .money {
+    display: flex;
+    align-items: center;
+}
+
+body .box_1 div > .money h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 10px 15px 10px 0;
+    color: white;
+
+}
+
+body .box_1 div > .money span {
+    color: white;
+    opacity: 0.8;
+}
+
+body .box_1 div:first-child > h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+body .box_1 div:first-child > button {
+    margin-top: 20px;
+    background-color: #bfe031;
+    color: white;
+    padding: 10px 100px;
+    border: 0;
+    border-radius: 7px;
+}
+
+body .box_2 > div:first-child {
+    margin: auto;
+    width: 70%;
+    height: 70%;
+}
+
+body .box_2 div:first-child > h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 40px 30px 15px 0;
+    color: white;
+}
+
+body .box_2 div li {
+    color: white;
+    font-size: 1.11rem;
+}
+
+body .box_2 div li {
+    list-style: none;
+}
+
+footer {
+    padding-top: 30px;
+    margin-top: 40px;
+    width: 100%;
+    height: 300px;
+    background-color: #1a1b27;
+    display: grid;
+    grid-template-columns: 20% 15% 15% 40%;
+}
+
+footer .f1 {
+    display: inline-block;
+    margin-left: 100px;
+    background-color: red;
+}
+
+footer .f1 h1 {
+    font-size: 2.5rem;
+    color: #FFD5A9;
+}
+
+footer .f1 p {
+    margin-top: 10px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+footer .f1 a {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+footer .f2 {
+    background-color: rgb(84, 158, 106);
+}
+
+footer .f3 {
+    background-color: rgb(204, 102, 102);
+}
+
+footer .f4 {
+    background-color: rgb(128, 57, 57);
+}
+
+
+
+/* for phone devices*/
+@media screen and (max-width: 400px) {
+    body .second_sec {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        height: 700px;
+    }
+
+
+
+}
